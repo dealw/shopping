@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shopping_cart:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/shopping_cart_war</output-path>
+    <root id="archive" name="shopping_cart_war.war">
+      <element id="artifact" artifact-name="shopping_cart:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
